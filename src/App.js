@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Portfolio1 from './portfolio1'; 
+import JoinServer from './joinserver';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         
       
       <Portfolio1 />
+      <JoinServer/>
     </div>
   );
 }
