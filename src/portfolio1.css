@@ -1,0 +1,47 @@
+/* portfolio1.css */
+/* portfolio1.css */
+body {
+    background-image: url('./stock market.jpg');
+    /* Adjust the path based on the location of your image file */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(0.7);
+}
+
+/* ... rest of your CSS styles ... */
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    width: 100%;
+    /* Adjust the width as needed */
+}
+
+.create-server {
+    font-size: 175%;
+    margin-right: 8px;
+    margin-top: 200px;
+    padding: 12px;
+    padding-top: 12px;
+}
+
+.join-server {
+    font-size: 175%;;
+    margin-top: 200px;
+    padding: 12px;
+    padding-top: 12px;
+}
+
+.create-server .btn,
+.join-server .btn {
+    font-size: 28px;
+    margin-bottom: 200px;
+}
